@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About me",
+      "description": "Hi my name is Richa Suglani. I’m currently finishing up my master’s program at Tufts university. I also work a full time job as a BI Analyst at a healthcare center. Outside of work I enjoy hiking, watching sunsets and cooking food. I’m all about embracing life's adventures, whether it's hiking through nature's wonders or discovering hidden coffee gems.",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-05-01T20:22:36-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Richa Suglani Website",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2024-05-01T20:22:37-07:00"
+    },
+    {
+      "path": "shiny_app.html",
+      "title": "Untitled",
+      "description": "A new article created using the Distill format.\n",
+      "author": [],
+      "contents": "\n\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
+      "last_modified": "2024-05-01T20:22:38-07:00"
+    }
+  ],
+  "collections": []
+}

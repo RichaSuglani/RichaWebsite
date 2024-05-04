@@ -1,0 +1,18 @@
+name: "Richa Website"
+title: "Richa' Website"
+theme: my_theme.css
+description: |
+  Richa Suglani Website
+output_dir: "docs"
+navbar:
+  logo:
+  image: logo.png
+  href: index.html
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "My Shiny App"
+      href: new_about.html
+output: distill::distill_article
