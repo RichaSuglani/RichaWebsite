@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "path": "about_me.html",
+      "title": "Richa Suglani",
+      "author": [],
+      "contents": "\n\n          \n          \n          \n          \n          Richa's Website\n          \n          \n          Home\n          My Shiny App\n          Dear Data\n          Netflix Analysis\n          ☰\n          \n          \n      \n        \n          \n            Richa Suglani\n          \n          \n            \n              I am currently finishing up last semester my Master’s\n              program at Tufts University while working full-time as a\n              BI Analyst at a healthcare center. Outside of work, I find\n              joy in hiking, watching sunsets, and cooking food. I’m all\n              about embracing life’s adventures, whether it’s hiking\n              through nature’s wonders or discovering hidden coffee\n              gems.\n            \n            \n              I am currently finishing up last semester my Master’s\n              program at Tufts University while working full-time as a\n              BI Analyst at a healthcare center. Outside of work, I find\n              joy in hiking, watching sunsets, and cooking food. I’m all\n              about embracing life’s adventures, whether it’s hiking\n              through nature’s wonders or discovering hidden coffee\n              gems.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2024-05-05T07:45:15-07:00"
+    },
+    {
+      "path": "DearData.html",
+      "title": "Dear Data Postcard",
+      "description": "Explanation and reflection on my Dear Data postcard.\n",
+      "author": [],
+      "contents": "\nDear Data Postcard\nHere is my Dear Data postcard:\n\nExplanation and Reflection\nFor this Dear Data postcard, I focused on creating a visual representation of key aspects of my weekly wellness routine. The postcard tracks three main variables: exercise, emotional state, and sleep schedule.\nExercise: The concentric circles resembling fitness rings represent different aspects of physical activity, including movement, exercise, and standing. These circles visualize the intensity and duration of my workouts throughout the week.\nEmotional State: The color gradient from cool blues to warm yellows indicates fluctuations in my emotional state over the week. Brighter colors signify more positive feelings, while darker shades represent lower moods.\nSleep Schedule: Horizontal bars depict the duration and quality of my sleep each night. Longer bars suggest more restful sleep, while shorter ones indicate periods of sleep deprivation or disruption.\nThrough this visual representation, I gained insights into how my emotional state fluctuates in correlation with exercise and sleep patterns. Notably, I observed a positive impact of intense workouts, particularly heavy lifting sessions, on my energy levels and sleep quality. However, maintaining a consistent sleep schedule proved challenging due to the demands of work and school.\nOverall, this project was a valuable exercise in self-reflection and creative exploration of personal data. It heightened my awareness of daily habits and their influence on my well-being, prompting me to consider potential improvements for a more balanced lifestyle.\n\n\n\n",
+      "last_modified": "2024-05-05T07:45:16-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Richa Suglani",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n          \n          \n          \n          \n          Richa's Website\n          \n          \n          Home\n          My Shiny App\n          Dear Data\n          Netflix Analysis\n          ☰\n          \n          \n      \n        \n          \n            Richa Suglani\n          \n          \n            \n              I am currently finishing up last semester my Master’s\n              program at Tufts University while working full-time as a\n              BI Analyst at a healthcare center. Outside of work, I find\n              joy in hiking, watching sunsets, and cooking food. I’m all\n              about embracing life’s adventures, whether it’s hiking\n              through nature’s wonders or discovering hidden coffee\n              gems.\n            \n            \n              I am currently finishing up last semester my Master’s\n              program at Tufts University while working full-time as a\n              BI Analyst at a healthcare center. Outside of work, I find\n              joy in hiking, watching sunsets, and cooking food. I’m all\n              about embracing life’s adventures, whether it’s hiking\n              through nature’s wonders or discovering hidden coffee\n              gems.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2024-05-05T07:45:17-07:00"
+    },
+    {
+      "path": "Netflix_Analysis.html",
+      "title": "Netflix Analysis",
+      "description": "This analysis explores the Netflix dataset for the year 2022 to understand the top 5 genres for movies and TV shows released in the USA and India.\n",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2024-05-05T07:45:20-07:00"
+    },
+    {
+      "path": "shiny_app.html",
+      "title": "PlayMetrics Shiny App",
+      "description": "Our app, ‘PlayMetrics’ is meant to be a user-friendly way to interact with a dataset containing global game sales data from 1980-2020.\n",
+      "author": [],
+      "contents": "\nHere’s the PlayMetrics Shiny App, developed by my group:\n\n\nAbout the App\nOur app, ‘PlayMetrics’, is meant to be a user-friendly way to interact with a dataset containing global game sales data from 1980-2020. We called it ‘PlayMetrics’ because we wanted the interaction between the user and the app to feel like “playing a game,” and the app showcases game sales metrics - a bit of a pun.\nWe thought it would be meaningful to showcase Top 5’s genres and gaming platforms from a sales standpoint over a user-designated time period. We used a slider scale ‘Year Range’ for easy user functionality rather than using a drop-down list where a user has to click multiple times to select the years they want to visualize data over. Users can also use the ‘Top 5 money maker by:’ select box to pick between platform v. genre. They can select a graph color scheme preference via the same functionality. Furthermore, we wanted users to easily be able to filter by genres that were visible as a group all at once, so we chose to make the ‘Select Genres’ filter action buttons.\n\n\n\n",
+      "last_modified": "2024-05-05T07:45:21-07:00"
+    }
+  ],
+  "collections": []
+}
