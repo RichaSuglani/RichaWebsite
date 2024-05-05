@@ -21,7 +21,5 @@ Our app, 'PlayMetrics', is meant to be a user-friendly way to interact with a da
 We thought it would be meaningful to showcase Top 5’s genres and gaming platforms from a sales standpoint over a user-designated time period. We used a slider scale 'Year Range' for easy user functionality rather than using a drop-down list where a user has to click multiple times to select the years they want to visualize data over. Users can also use the 'Top 5 money maker by:' select box to pick between platform v. genre. They can select a graph color scheme preference via the same functionality. Furthermore, we wanted users to easily be able to filter by genres that were visible as a group all at once, so we chose to make the 'Select Genres' filter action buttons.
 
 
-Replace `"https://chowsanthony.shinyapps.io/PlayMetrics/"` with your Shiny App's actual URL. Once you've done that, your Shiny App will be embedded in your R Markdown document, and users can interact with it directly from your website.
-
 
 
