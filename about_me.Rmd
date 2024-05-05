@@ -11,5 +11,5 @@ links:
 output:
   postcards::jolla
 ---
-I am currently finishing up last semester my Master's program at Tufts University while working full-time as a BI Analyst at a healthcare center. 
+Hi, I am currently finishing up last semester my Master's program at Tufts University while working full-time as a BI Analyst at a healthcare center. 
 Outside of work, I find joy in hiking, watching sunsets, and cooking food. I'm all about embracing life's adventures, whether it's hiking through nature's wonders or discovering hidden coffee gems.

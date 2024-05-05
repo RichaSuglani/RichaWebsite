@@ -6,12 +6,12 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-    image: "logo 2.png"
+    image: "logo1.png"
     href: index.html
   right:
     - text: "Home"
       href: index.html
-    - text: "My Shiny App"
+    - text: "Play Metrics Shiny App"
       href: shiny_app.html
     - text: "Dear Data"
       href: DearData.html
