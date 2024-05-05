@@ -1,13 +1,13 @@
 name: "Richa Website"
-title: "Richa' Website"
+title: "Richa's Website"
 theme: my_theme.css
 description: |
   Richa Suglani Website
 output_dir: "docs"
 navbar:
   logo:
-  image: logo.png
-  href: index.html
+    image: logo.png
+    href: index.html
   right:
     - text: "Home"
       href: index.html
@@ -15,4 +15,7 @@ navbar:
       href: about.html
     - text: "My Shiny App"
       href: new_about.html
+    # Add a new entry for your DearData.html file here
+    - text: "Dear Data"
+      href: DearData.html
 output: distill::distill_article

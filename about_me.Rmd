@@ -5,7 +5,7 @@ links:
   - label: LinkedIn
     url:  "https://www.linkedin.com/in/richasuglani"
   - label: GitHub
-    url: "https://richasuglani.github.io/RichaWebsite/"
+    url: "https://github.com/RichaSuglani/mywebsite"
   - label: Email
     url: "suglaniricha@gmail.com"
 output:

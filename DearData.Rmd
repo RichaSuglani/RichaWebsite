@@ -1,4 +1,5 @@
 ---
+---
 title: "Dear Data Postcard"
 description: |
   Explanation and reflection on my Dear Data postcard.
@@ -7,19 +8,20 @@ author:
     url: Your Website or Profile URL
     affiliation: Business Intelligence Analyst at a Healthcare Center.
 date: "`r Sys.Date()`"
-output: distill::distill_article
- self_contained: false
+output: 
+  distill::distill_article:
+    self_contained: false
 ---
 
 # Dear Data Postcard
 
 Here is my Dear Data postcard:
 
-![Dear Data Postcard](Dear Data.png)
+![Dear Data Postcard](Dear Data.png) <!-- Make sure the image file name matches the actual file name -->
 
 ## Explanation and Reflection
 
-(For this Dear Data postcard, I focused on creating a visual representation of key aspects of my weekly wellness routine. The postcard tracks three main variables: exercise, emotional state, and sleep schedule.
+For this Dear Data postcard, I focused on creating a visual representation of key aspects of my weekly wellness routine. The postcard tracks three main variables: exercise, emotional state, and sleep schedule.
 
 **Exercise:** The concentric circles resembling fitness rings represent different aspects of physical activity, including movement, exercise, and standing. These circles visualize the intensity and duration of my workouts throughout the week.
 
@@ -29,8 +31,4 @@ Here is my Dear Data postcard:
 
 Through this visual representation, I gained insights into how my emotional state fluctuates in correlation with exercise and sleep patterns. Notably, I observed a positive impact of intense workouts, particularly heavy lifting sessions, on my energy levels and sleep quality. However, maintaining a consistent sleep schedule proved challenging due to the demands of work and school.
 
-Overall, this project was a valuable exercise in self-reflection and creative exploration of personal data. It heightened my awareness of daily habits and their influence on my well-being, prompting me to consider potential improvements for a more balanced lifestyle.)
-
-
-
-
+Overall, this project was a valuable exercise in self-reflection and creative exploration of personal data. It heightened my awareness of daily habits and their influence on my well-being, prompting me to consider potential improvements for a more balanced lifestyle.
