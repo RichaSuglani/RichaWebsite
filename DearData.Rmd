@@ -1,13 +1,7 @@
 ---
----
 title: "Dear Data Postcard"
 description: |
   Explanation and reflection on my Dear Data postcard.
-author:
-  - name: Richa Suglani
-    url: Your Website or Profile URL
-    affiliation: Business Intelligence Analyst at a Healthcare Center.
-date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
     self_contained: false

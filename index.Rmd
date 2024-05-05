@@ -1,20 +1,20 @@
 ---
-title: "Richa Suglani Website"
+title: "Richa Suglani"
 description: |
   Welcome to the website. I hope you enjoy it!
+image: "Richa_pic.png"
+links:
+  - label: LinkedIn
+    url:  "https://www.linkedin.com/in/richasuglani"
+  - label: GitHub
+    url: "https://github.com/RichaSuglani/mywebsite"
+  - label: Email
+    url: "suglaniricha@gmail.com"
+output:
+  postcards::jolla
 site: distill::distill_website
 ---
+I am currently finishing up last semester my Master's program at Tufts University while working full-time as a BI Analyst at a healthcare center. 
+Outside of work, I find joy in hiking, watching sunsets, and cooking food. I'm all about embracing life's adventures, whether it's hiking through nature's wonders or discovering hidden coffee gems.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
 

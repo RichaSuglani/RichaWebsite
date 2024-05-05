@@ -1,11 +1,12 @@
 ---
-title: "NetflixAnalysis"
-author: "Richa Suglani"
-date: "2024-05-05"
-output: html_document
+title: "Netflix Analysis"
+description: |
+  This analysis explores the Netflix dataset for the year 2022 to understand the top 5 genres for movies and TV shows released in the USA and India.
+output: 
+  distill::distill_article:
+    self_contained: false
 ---
 
-## This analysis explores the Netflix dataset for the year 2022 to understand the top 5 genres for movies and TV shows released in the USA and India.
 
 ```{r setup, include=FALSE}
 # Load necessary packages

@@ -2,7 +2,6 @@
 title: "PlayMetrics Shiny App"
 description: |
   Our app, ‘PlayMetrics’ is meant to be a user-friendly way to interact with a dataset containing global game sales data from 1980-2020.
-
 output: distill::distill_article
 ---
 

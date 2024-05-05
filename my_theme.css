@@ -64,11 +64,6 @@ d-appendix {
   --text-size:        15px;
   --hover-color:      white;
   --bkgd-color:       #0F2E3D;
- /* Add background image for the logo */
-  background-image: url('logo2.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
 }
 
 .distill-site-footer {

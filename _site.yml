@@ -6,14 +6,13 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-  image: "logo 2.png"
+    image: "logo 2.png"
+    href: index.html
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about_me.html
     - text: "My Shiny App"
-      href: https://chowsanthony.shinyapps.io/PlayMetrics/
+      href: shiny_app.html
     - text: "Dear Data"
       href: DearData.html
     - text: "Netflix Analysis"
