@@ -6,8 +6,7 @@ description: |
 output_dir: "docs"
 navbar:
   logo:
-    image: logo.png
-    href: index.html
+  image: "logo2.png"
   right:
     - text: "Home"
       href: index.html
