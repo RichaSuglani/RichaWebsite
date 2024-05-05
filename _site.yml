@@ -12,10 +12,11 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "About"
-      href: about.html
+      href: about_me.html
     - text: "My Shiny App"
-      href: new_about.html
-    # Add a new entry for your DearData.html file here
+      href: https://chowsanthony.shinyapps.io/PlayMetrics/
     - text: "Dear Data"
       href: DearData.html
+    - text: "Netflix Analysis"
+      href: Netflix_Analysis.html
 output: distill::distill_article

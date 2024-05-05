@@ -1,0 +1,86 @@
+---
+title: "NetflixAnalysis"
+author: "Richa Suglani"
+date: "2024-05-05"
+output: html_document
+---
+
+## This analysis explores the Netflix dataset for the year 2022 to understand the top 5 genres for movies and TV shows released in the USA and India.
+
+```{r setup, include=FALSE}
+# Load necessary packages
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(forcats)  # Load the forcats package for fct_reorder function
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, eval=FALSE, echo=FALSE}
+# Load the dataset
+netflix_data <- read_csv("netflix_titles.csv")
+
+# Filter for movies and TV shows released in 2022 from the USA and India
+netflix_filtered <- netflix_data %>%
+  filter(release_year == 2020,
+         country %in% c("United States", "India"))
+
+# Group by type (Movie or TV Show) and listed_in (genre), and count the number of occurrences
+genre_counts <- netflix_filtered %>%
+  group_by(type, listed_in, country) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count))
+
+# Get the top 5 genres for movies and TV shows in the USA and India
+top_genres <- genre_counts %>%
+  group_by(type, country) %>%
+  top_n(5, count)
+
+# Create a data frame for plotting
+plot_data <- top_genres %>%
+  mutate(rank = row_number())
+
+# Define the colors for the plot
+colors <- c("#FF5733", "#335EFF", "#33FF57", "#FF33F0", "#F0FF33")
+
+```
+
+```{r, echo=FALSE}
+movie_plot <- ggplot(plot_data %>% filter(type == "Movie"),
+                     aes(x = fct_reorder(listed_in, count), y = count, fill = country)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.9), width = 0.7) +
+  labs(title = "Top 5 Movie Genres in India vs USA (2020)",
+       x = "Genre",
+       y = "Count",
+       fill = "Country") +
+  scale_fill_manual(values = colors) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+```{r , echo=FALSE}
+movie_plot
+
+```
+
+```{r , echo=FALSE}
+tvshow_plot <- ggplot(plot_data %>% filter(type == "TV Show"),
+                      aes(x = fct_reorder(listed_in, count), y = count, fill = country)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.9), width = 0.7) +
+  labs(title = "Top 5 TV Show Genres in India vs USA (2020)",
+       x = "Genre",
+       y = "Count",
+       fill = "Country") +
+  scale_fill_manual(values = colors) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+```{r , echo=FALSE}
+tvshow_plot
+
+```
